@@ -1,0 +1,306 @@
+/*字型*/
+/*中文字體*/
+@font-face {
+    font-family: Source Han Reg;  /*小標題*/
+    src: url(/font/OTC/SourceHanSerif-Regular.ttc);
+}
+
+@font-face {
+    font-family: SemBold; /*標題文字*/
+    src: url(/font/OTC/SourceHanSerif-Bold.ttc); 
+}
+
+
+@font-face {
+    font-family: NotoSansTC; /*內文*/
+    src: url(/font/Noto_Sans_TC/NotoSansTC-Regular.otf);
+}
+
+/*html*/
+html {
+    margin: 0 240px;
+    padding: 0;
+	background-color: black;
+    
+}
+
+/*body*/
+body{
+    margin: 0;
+}
+
+/*主體區塊*/
+.container {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 1260px;
+    background-color: #272727;
+    
+}
+
+/*header*/
+.header{
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 1440px;
+    height: 140px;
+    background-color: #272727;
+    padding:0;
+    justify-content: center;
+}
+
+
+.header_links-left{
+    display: flex;
+    
+}
+
+.header_links-right{
+    display: flex;
+    
+}
+
+
+.header_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 57px 60px 0;
+    text-decoration: none;
+    color: #E5CCA4;
+    font-size: 24px;
+    font-family: NotoSansTC;
+}
+
+
+.header_link:hover{
+    color: white;
+   
+}
+
+.header_line{
+    display: flex;
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #e5cca400;
+    border-radius: 10px;
+    margin: 93px 0 0;
+}
+
+.header_line_hover{
+    background-color: white;
+}
+
+
+
+.header_logo{
+    color: white;
+    font-size: 20px;
+    padding: 0 40px;
+}
+
+#product{
+    color:white;
+}
+
+#product_line{
+    background-color:white;
+}
+
+
+
+/*product bar */
+#product_bar{
+    display: flex;
+    margin-top: 49px;
+    margin-left: 636px;
+    font-family: NotoSansTC;
+    font-size: 18px;
+   
+}
+
+#product_bar a.potion { 
+    text-decoration: none;
+    color: #E5CCA4;
+    border: solid 1px #E5CCA4;
+    border-radius: 1px;
+    text-align: center;
+    margin: 0 18px 0 0;
+    padding: 4px 19px;
+}
+
+#product_bar a.props { 
+    text-decoration: none;
+    color: #E5CCA4;
+    border: solid 1px #E5CCA4;
+    border-radius: 1px;
+    text-align: center;
+    margin: 0 18px 0 0;
+    padding: 4px 19px;
+}
+
+
+
+#product_bar a.potion:hover{
+    color: white;
+    border: solid 1px #846B43;
+    background-color: #846B43;
+}
+
+#product_bar a.props:hover{
+    color: white;
+    border: solid 1px #846B43;
+    background-color: #846B43;
+}
+
+#product_bar a.potion:active{
+    color: white;
+    border: solid 1px #846B43;
+    background-color: #846B43;
+}
+
+#product_bar a.props:active{
+    color: white;
+    border: solid 1px #846B43;
+    background-color: #846B43;
+}
+
+#product_bar a.potion.active{
+    color: white;
+    border: solid 1px #846B43;
+    background-color: #846B43;
+}
+
+#product_bar a.props.active{
+    color: white;
+    border: solid 1px #846B43;
+    background-color: #846B43;
+}
+
+
+/*main area*/
+.main_area{
+    display: flex;
+    padding: 50px 255px;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*potion*/
+.items_box{
+    display: flex;
+    width: 260px;
+    height: 290px;
+    margin-bottom: 54px;  
+    justify-content: center;
+    
+}
+
+.items_img_box{
+    position: relative;
+    width: 260px;
+    height: 240px;
+    border: solid 1px #846B43;
+    overflow: hidden
+}
+
+.items_img{
+    width: 260px;
+    height: 240px;
+}
+
+.items_img:hover{
+    transform:scale(1.2,1.2);
+    transition: all 1s ease-out;
+}
+
+.items_name{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin:260px 0 0 0;
+    width: 82px;
+    height: 30px;
+    color: #846B43;
+    font-size: 20px;
+    font-family: NotoSansTC;
+}
+
+/*proops*/
+.proops_box{
+    font-family: SemBold; 
+    font-size: 60px;
+    width: 249px;
+    height: 66px;
+    margin: 113px 340px;
+    color: white;
+}
+
+
+
+
+/*footer*/
+footer{
+    height: 140px;
+    width: 1440px;
+    background-color: #272727;
+}
+
+.footer_line{
+   width: 1440px;
+   height: 1px;
+   background-color: #846B43; 
+}
+
+
+
+.footer_infos-top{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 30px;
+    color: #846B43; 
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    font-family: NotoSansTC;
+}
+
+.footer_infos-mid{
+    display: flex; 
+    justify-content: center; 
+    color: #846B43;  
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_infos-bottom{
+    display: flex; 
+    justify-content: center; 
+    color: #846B43; 
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    font-family: NotoSansTC;
+    align-items: center;
+}
+
+.footer_infos-line{
+    display: inline-block;
+    width: 1px;
+    height: 18px;
+    margin: 0 7px ;
+    background-color: #846B43;  
+}

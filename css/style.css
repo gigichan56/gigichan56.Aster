@@ -1,0 +1,392 @@
+/*字型*/
+/*中文字體*/
+@font-face {
+    font-family: Source Han Reg;  /*小標題*/
+    src: url(../font/OTC/SourceHanSerif-Regular.ttc);
+}
+
+@font-face {
+    font-family: SemBold; /*標題文字*/
+    src: url(../font/OTC/SourceHanSerif-Bold.ttc); 
+}
+
+
+@font-face {
+    font-family: NotoSansTC; /*內文*/
+    src: url(../font/Noto_Sans_TC/NotoSansTC-Regular.otf);
+}
+
+
+/*html*/
+html {
+    margin: 0 240px;
+    padding: 0;
+	background-color: black;
+    
+}
+
+/*body*/
+body{
+    margin: 0;
+}
+
+/*主體區塊*/
+.container {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 3460px;
+    background-color: #272727;
+    
+}
+
+/*header*/
+.header{
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 1440px;
+    height: 140px;
+    background-color: #272727;
+    padding:0;
+    justify-content: center;
+}
+
+
+.header_links-left{
+    display: flex;
+    
+}
+
+.header_links-right{
+    display: flex;
+    
+}
+
+
+.header_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 57px 60px 0;
+    text-decoration: none;
+    color: #E5CCA4;
+    font-size: 24px;
+    font-family: NotoSansTC;
+}
+
+
+.header_link:hover{
+    color: white;
+   
+}
+
+.header_line{
+    display: flex;
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #e5cca400;
+    border-radius: 10px;
+    margin: 93px 0 0;
+}
+
+.header_line_hover{
+    background-color: white;
+}
+
+
+
+.header_logo{
+    color: white;
+    font-size: 20px;
+    padding: 0 40px;
+}
+
+/*welcome banner*/
+.welcome_banner_text{
+    position: absolute;
+    color: #E5CCA4;
+}
+
+
+.welcome_banner_top_text{
+    display: flex;
+    font-size: 72px;
+    font-family: SemBold;
+    margin-top: 239px;
+    margin-left: 533px;
+    letter-spacing: 0.05em;
+}
+
+.welcome_banner_bottom_text{
+    display: flex; 
+    font-size: 32px;
+    font-family: Source Han Reg;
+    margin-left: 486px;
+    letter-spacing: 0.05em;
+}
+
+.welcome_banner_img{
+    width: 1440px;
+    height: 760px;
+}
+
+
+/*about us*/
+.aboutUs_title_line{
+    display: flex;
+    margin-left: 668px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 105px;
+    height: 3px;
+    background-color: #E5CCA4;
+    border-radius: 10px;
+}
+
+.aboutUs_box{
+    margin: 188px 0 0 ;
+    color: #E5CCA4;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    font-family: NotoSansTC;
+    text-align: center;
+
+}
+
+.aboutUs_img{
+    display: flex;
+    margin-left: 243px;
+    margin-bottom: 25px;
+}
+
+.aboutUs_text{
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    width: 265px;
+    height: 54px;
+    margin-left: 588px;
+    
+}
+
+.aboutUs_more{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #E5CCA4;
+    border: solid 1px #E5CCA4;
+    border-radius: 1px;
+    padding: 7px 23px;
+    margin: 25px 672px; 
+    font-size: 20px;   
+}
+
+.aboutUs_more:hover{
+    color: white;
+    border: solid 1px #846B43;
+    background: #846B43;
+}
+
+
+.aboutUs_underline{
+   width: 1440px;
+   height: 1px;
+   background-color: #707070; 
+   margin:185px 0 0;
+}
+
+
+/*news*/
+.new_box{
+    display: flex;
+    color: #E5CCA4;
+    border: solid 1px #E5CCA4;
+    border-radius: 1px;
+    width: 1050px;
+    height: 442px;
+    margin-left: 195px;
+    margin-top: 230px;
+}
+
+.new_box_img{
+   margin: 0;
+}
+
+.new_title{
+    display: flex;
+    color: #E5CCA4;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    font-family: NotoSansTC;
+    margin: 110px 0 0 254.42px;
+}
+
+.new_title_line{
+    display: flex;
+    width: 75px;
+    height: 3px;
+    background-color: #E5CCA4;
+    margin-top: 10px;
+    margin-left: 258.42px;
+    border-radius: 10px;
+}
+
+
+.new_text{
+    display: flex;
+    color: #E5CCA4;
+    font-size: 60px;
+    letter-spacing: 0.05em;
+    font-family: SemBold;
+    margin-top: 28px;
+    margin-left: 170.42px;
+}
+
+.new_more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #E5CCA4;
+    border: solid 1px #E5CCA4;
+    border-radius: 1px;
+    font-size: 20px;
+    font-family: NotoSansTC;
+    letter-spacing: 0.05em;
+    width: 95px;
+    height: 45px;
+    margin-left: 247.42px;
+    margin-top: 25px;
+}
+
+.new_more:hover{
+    color: white;
+    border: solid 1px #846B43;
+    background: #846B43;
+}
+
+.new_underline{
+    width: 1440px;
+    height: 1px;
+    background-color: #707070; 
+    margin:228px 0 0;
+}
+
+/*contact*/
+.contact{
+     display: flex;
+     margin-top: 155px ;
+     margin-bottom: 155px;
+}
+
+.contact_text_box{
+    position: absolute;
+    color: #E5CCA4;
+}
+
+.contact_text{
+    display: flex;
+    align-items: center;
+    font-size: 56px;
+    font-family: SemBold;
+    margin-top: 153px;
+    margin-left: 606px;
+    letter-spacing: 0.05em;
+
+}
+
+.contact_more{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: NotoSansTC;
+    color: #E5CCA4;
+    border: solid 1px #E5CCA4;
+    border-radius: 1px;
+    margin-left: 674px;
+    margin-top: 25px;
+    width: 95px;
+    height: 32px;
+    letter-spacing: 0.05em;
+    
+}
+
+.contact_more:hover{
+    color: white;
+    border: solid 1px #846B43;
+    background: #846B43;
+}
+
+
+/*footer*/
+footer{
+    height: 140px;
+    width: 1440px;
+    background-color: #272727;
+}
+
+.footer_line{
+   width: 1440px;
+   height: 1px;
+   background-color: #846B43; 
+}
+
+
+
+.footer_infos-top{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 30px;
+    color: #846B43; 
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    font-family: NotoSansTC;
+}
+
+.footer_infos-mid{
+    display: flex; 
+    justify-content: center; 
+    color: #846B43;  
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_infos-bottom{
+    display: flex; 
+    justify-content: center; 
+    color: #846B43; 
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 27px;
+    font-family: NotoSansTC;
+    align-items: center;
+}
+
+.footer_infos-line{
+    display: inline-block;
+    width: 1px;
+    height: 18px;
+    margin: 0 7px ;
+    background-color: #846B43;  
+}
+
+
+
+

@@ -2,19 +2,20 @@
 /*中文字體*/
 @font-face {
     font-family: Source Han Reg;  /*小標題*/
-    src: url(/font/OTC/SourceHanSerif-Regular.ttc);
+    src: url(../../font/OTC/SourceHanSerif-Regular.ttc);
 }
 
 @font-face {
     font-family: SemBold; /*標題文字*/
-    src: url(/font/OTC/SourceHanSerif-Bold.ttc); 
+    src: url(../../font/OTC/SourceHanSerif-Bold.ttc); 
 }
 
 
 @font-face {
     font-family: NotoSansTC; /*內文*/
-    src: url(/font/Noto_Sans_TC/NotoSansTC-Regular.otf);
+    src: url(../../font/Noto_Sans_TC/NotoSansTC-Regular.otf);
 }
+
 
 /*html*/
 html {
@@ -79,6 +80,7 @@ body{
     color: #E5CCA4;
     font-size: 24px;
     font-family: NotoSansTC;
+    letter-spacing: 0.03em;
 }
 
 
@@ -126,6 +128,7 @@ body{
     margin-left: 636px;
     font-family: NotoSansTC;
     font-size: 18px;
+    letter-spacing: 0.03em;
    
 }
 
@@ -230,10 +233,11 @@ body{
     display: flex;
     justify-content: center;
     margin:260px 0 0 0;
-    width: 82px;
+    width: 84px;
     height: 30px;
     color: #846B43;
     font-size: 20px;
+    letter-spacing: 0.03em;
     font-family: NotoSansTC;
 }
 

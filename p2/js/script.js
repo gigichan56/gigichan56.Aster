@@ -33,19 +33,19 @@ $(document).ready(function(){
         $(".main_area").html(
            `
            <div class=" items_box">
-              <div class="items_img_box"><img src="../img/float_2.png"  class="items_img"></div>  
+              <div class="items_img_box"><img src="img/float_2.png"  class="items_img"></div>  
               <div class="items_name">飄浮藥水</div>
            </div>
            <div class=" items_box">
-             <div class="items_img_box"><img src="../img/Invisible_2.png" class="items_img"></div>
+             <div class="items_img_box"><img src="img/Invisible_2.png" class="items_img"></div>
              <div class="items_name">隱形藥水</div>
            </div>
            <div class=" items_box">
-             <div class="items_img_box"><img src="../img/love_2.png" class="items_img" ></div>
+             <div class="items_img_box"><img src="img/love_2.png" class="items_img" ></div>
              <div class="items_name">愛情靈藥</div>
            </div>
            <div class=" items_box">
-             <div class="items_img_box"><img src="../img/cure_2.png" class="items_img"></div>
+             <div class="items_img_box"><img src="img/cure_2.png" class="items_img"></div>
              <div class="items_name">治療藥水</div>
             </div>`
         );

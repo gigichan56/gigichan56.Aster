@@ -80,6 +80,7 @@ body{
     color: #E5CCA4;
     font-size: 24px;
     font-family: NotoSansTC;
+    letter-spacing: 0.03em;
 }
 
 
@@ -124,6 +125,8 @@ body{
     margin-top: 239px;
     margin-left: 533px;
     letter-spacing: 0.05em;
+    width: 380px;
+    height: 103px;
 }
 
 .welcome_banner_bottom_text{
@@ -132,6 +135,8 @@ body{
     font-family: Source Han Reg;
     margin-left: 486px;
     letter-spacing: 0.05em;
+    width: 472px;
+    height: 46px;
 }
 
 .welcome_banner_img{
@@ -156,9 +161,9 @@ body{
     margin: 188px 0 0 ;
     color: #E5CCA4;
     font-size: 20px;
-    letter-spacing: 0.05em;
     font-family: NotoSansTC;
     text-align: center;
+    letter-spacing: 0.03em;
 
 }
 
@@ -228,7 +233,7 @@ body{
     display: flex;
     color: #E5CCA4;
     font-size: 20px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
     font-family: NotoSansTC;
     margin: 110px 0 0 254.42px;
 }
@@ -304,6 +309,8 @@ body{
     margin-top: 153px;
     margin-left: 606px;
     letter-spacing: 0.05em;
+    width: 236px;
+    height: 80px;
 
 }
 

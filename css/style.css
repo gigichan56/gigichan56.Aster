@@ -204,6 +204,13 @@ body{
     background: #846B43;
 }
 
+.aboutUs_more:active{
+    color: white;
+    border: solid 1px #483A24;
+    background: #483A24;
+}
+
+
 
 .aboutUs_underline{
    width: 1440px;
@@ -282,6 +289,13 @@ body{
     background: #846B43;
 }
 
+.new_more:active{
+    color: white;
+    border: solid 1px #483A24;
+    background: #483A24;
+}
+
+
 .new_underline{
     width: 1440px;
     height: 1px;
@@ -336,6 +350,12 @@ body{
     color: white;
     border: solid 1px #846B43;
     background: #846B43;
+}
+
+.contact_more:active{
+    color: white;
+    border: solid 1px #483A24;
+    background: #483A24;
 }
 
 
